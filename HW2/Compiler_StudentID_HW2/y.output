@@ -1,0 +1,96 @@
+INT_LIT 0
+> Insert {x} into symbol table (scope level: 0)
+------------------
+level:0 scopeArr: 0
+id: x nameArr:x
+IDENT (name=x, address=0)
+------------------
+level:0 scopeArr: 0
+id: x nameArr:x
+INT_LIT 10
+ADD_ASSIGN
+------------------
+level:0 scopeArr: 0
+id: x nameArr:x
+IDENT (name=x, address=0)
+------------------
+level:0 scopeArr: 0
+id: x nameArr:x
+INT_LIT 0
+GTR
+------------------
+level:1 scopeArr: 0
+id: x nameArr:x
+IDENT (name=x, address=-1)
+------------------
+level:1 scopeArr: 0
+id: x nameArr:x
+PRINT int
+------------------
+level:1 scopeArr: 0
+id: x nameArr:x
+IDENT (name=x, address=-1)
+DEC
+> Dump symbol table (scope level: 1)
+Index     Name      Type      Address   Lineno    Element type
+> Insert {i} into symbol table (scope level: 0)
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+IDENT (name=i, address=1)
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+INT_LIT 0
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+IDENT (name=i, address=1)
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+INT_LIT 10
+LTR
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+IDENT (name=i, address=1)
+INC
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+IDENT (name=i, address=1)
+------------------
+level:0 scopeArr: 0
+id: i nameArr:x
+------------------
+level:0 scopeArr: 0
+id: i nameArr:i
+PRINT int
+> Dump symbol table (scope level: 0)
+Index     Name      Type      Address   Lineno    Element type
+0         x         int       0         1         -
+1         i         int       1         8         -
+> Dump symbol table (scope level: -1)
+Index     Name      Type      Address   Lineno    Element type
+0                   int       0         1         -
+1                   int       1         8         -
+Total lines: 11

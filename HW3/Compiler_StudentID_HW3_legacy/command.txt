@@ -1,0 +1,5 @@
+./mycompiler  < input/in01_arithmetic.c
+java -jar jasmin.jar hw3.j
+java Main >y.output
+
+diff -y y.output answer/in01_arithmetic.out
